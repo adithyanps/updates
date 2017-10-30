@@ -5,7 +5,7 @@ def most_freq(x):
  for f in x:
   b[f] = b.get(f, 0) + 1
  for l, c in b.iteritems():
-  h.append((l,c))
+  h.append((l,c)) 
   h.sort(key=lambda x:x[1])
  c=h[::-1]
  print [(t[0]) for t in c]

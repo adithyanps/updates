@@ -1,6 +1,5 @@
 import sys
 def print_hist(h):
- c = []
  for x in sorted(h.keys()):
   print x, h[x]
 a = raw_input("enter the string : ")
